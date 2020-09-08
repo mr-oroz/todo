@@ -1,12 +1,11 @@
 import React from 'react';
-import List from './List'
-import Header from './Header'
+import Home from './home'
+
 
 const App = () => {
     return (
         <div>
-            <Header/>
-            <List/>
+            <Home/>
         </div>
     )
 }

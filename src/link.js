@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
 import Item from './item';
 
-class List extends Component {
+class Link extends Component {
     state = {
         data: [
-            "Hit the gym",
-            'Pay bills',
-            'Meet George',
-            'Buy eggs',
-            'Read a book',
-            'Organize office'
+            "Link 1",
+            'Link 2',
+            'Link 3',
+            'Link 4',
         ]
     }
     render() {
         return (
-            <ul id="myUL">
+            <div  className='link'>
+
                 {
                     this.state.data.map(
                         (item) => {
@@ -22,11 +21,9 @@ class List extends Component {
                         }
                     )
                 }
-                </ul>
+            </div>
 
         )
     }
-
-
 }
-export default List;
+export default Link;

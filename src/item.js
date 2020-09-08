@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Item = (props) => {
-    return <li>{props.label}</li>
+    return <p>{props.label}</p>
 }
 export default Item;
