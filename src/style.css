@@ -3,10 +3,11 @@
     margin: 8px;
 }
 .home {
-    padding: 5px;
     background-color: #5BFF33;
 }
 .link {
-    padding: 5px;
     background-color: aliceblue;
+}
+.home, .link {
+    padding: 5px;
 }
