@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './home'
+import Container from "./container";
 
 
 const App = () => {
     return (
         <div>
-            <Home/>
+            <Container/>
         </div>
     )
 }
