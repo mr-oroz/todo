@@ -5,10 +5,10 @@ class List extends Component {
 
     state = {
         data: [
-            {id: 1, checked: true, number: 150, label: 'Манты'},
-            {id: 2, checked: true, number: 80, label: 'Шорпо'},
-            {id: 3, checked: true, number: 200, label: 'Беш бармак'},
-            {id: 4, checked: true, number: 220, label: 'Куурдак'},
+            {id: 1, number: 150, label: 'Манты'},
+            {id: 2, number: 80, label: 'Шорпо'},
+            {id: 3,  number: 200, label: 'Беш бармак'},
+            {id: 4,  number: 220, label: 'Куурдак'},
         ]
     }
 
